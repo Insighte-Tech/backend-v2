@@ -368,8 +368,8 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",
-        "https://insighte-etbt.onrender.com"
+        "https://lighthearted-alpaca-0641f5.netlify.app",
+        "https://insighte.org"
     ],
     allow_credentials=True,
     allow_methods=["*"],
